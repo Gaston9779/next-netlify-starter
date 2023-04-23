@@ -118,7 +118,7 @@ export const FormWorkUs = () =>
       <p style={ { marginLeft: '3%', fontSize: 30, fontWeight: 'bold', marginTop: 10 } }>Lavora con Noi(Consulente)</p>
       <p style={ { marginLeft: '3%', fontSize: 16, marginTop: 10 } }>Scrivici una mail allegando le tue competenze e il CV a questo indirizzo:</p>
       <hr style={ { border: '0.5px solid lightgrey ', width: '90%', marginTop: 30 } }></hr>
-      <p style={ { marginLeft: '3%', fontSize: 25, color:'orange', marginTop: 30 } }>tecnico@casalvi.it</p>
+      <a href='mailto:tecnico@casalvi.it'  style={ { marginLeft: '3%', fontSize: 25, color:'orange', marginTop: 30 } }>tecnico@casalvi.it</a>
     </div>
 
   )

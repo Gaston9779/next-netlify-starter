@@ -8,16 +8,18 @@ import Footer from '../component/Footer';
 import Lottie from 'lottie-react';
 import lottiefile from '../assets/lottie.json'
 
+
 export default function App ( { Component, pageProps } )
 {
+
 
   return (
     <Provider store={ store }>
       <Navbar />
       <div className="backS"></div>
 
-
-      <Component { ...pageProps } />
+    
+        <Component { ...pageProps } />
 
     </Provider> )
 }

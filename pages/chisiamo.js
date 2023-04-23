@@ -4,9 +4,11 @@ import lottiefile from '../assets/lottie.json'
 import Image from 'next/image'
 import { useEffect, useState } from "react";
 import Arrow from '../assets/arrow.png'
+import AOS from "aos";
 
 const KnowHow = () =>
 {
+    
     const data = [
         {
             "id": 0,
@@ -42,15 +44,21 @@ const KnowHow = () =>
         },
     ]
     const [ isClicked, setIsClicked ] = useState( false )
-
+    useEffect( () =>
+    {
+        AOS.init({
+            duration:3000
+        });
+        AOS.refresh();
+    }, [] );
     return (
         <div className='gradient '>
             {/* <div className="backS"></div>
 
             <Lottie className="backLottie" animationData={ lottiefile } /> */}
-            <div style={ { padding: '3%' } }>
-                <p style={ { fontSize: 30, fontWeight: '600', color: 'orange', marginBottom: 20 } }>CASALVI è un gruppo Innovativo</p>
-                <p style={ { width: '70%', fontSize: 20, lineHeight: 2, fontFamily: 'Montserrat' } }>Si configura come "aggregatore di reti d'impresa". <br />
+            <div data-aos='fade-left' style={ { padding: '3%' } }>
+                <p style={ { fontSize: 50, fontWeight: '600', color: 'orange', marginBottom: 20 } }>CASALVI <br/>è un gruppo Innovativo</p>
+                <p style={ { width: '70%', fontSize: 16, lineHeight: 2, fontFamily: 'Montserrat' } }>Si configura come "aggregatore di reti d'impresa". <br />
                     Nasce con l'obiettivo di AGGREGARE tramite partnership e stabili
                     collaborazioni, società della filiera edilizia (professionisti, artigiani,
                     commercianti) che operano sul mercato con proprie reti commerciali.<br />

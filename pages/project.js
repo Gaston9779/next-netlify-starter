@@ -17,7 +17,7 @@ const Realizzazioni = () =>
     }, [] );
 
     return (
-        <div style={ {opacity:'100%', paddingTop:'130px', display:'flex', flexDirection:'column', justifyContent:'space-around' } } >
+        <div style={ {opacity:'100%', paddingTop:'100px', display:'flex', flexDirection:'column', justifyContent:'space-around' } } >
             {/* <Image src={ HomeWork } style={ { width: '100%', height: '90vh', opacity:'10%', position:'absolute', zIndex:0 } } /> */}
             <div data-aos='fade-left' style={ { display: 'flex', justifyContent: 'space-between', paddingLeft: 70 } } >
                 <div>
