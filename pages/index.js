@@ -31,8 +31,8 @@ export default function Home ()
       <Lottie className="backLottie" animationData={ lottiefile } /> */}
       <div style={ { display: 'grid', gridTemplateColumns: '1fr 1fr', alignItems: 'center', padding: '3%', height: '100vh' } }>
         <div style={ { display: 'flex', flexDirection: 'column', gap: 40 } }>
-          <h1 style={ { fontSize: '7.5vw', fontWeight: '100', color: '#27292A', fontFamily: 'Geometos Rounded' } } >CASALVI</h1>
-          <p style={ { fontSize: 16, fontFamily: 'Montserrat', lineHeight: 2, } }>Nasce con l'obiettivo di AGGREGARE tramite partnership e stabili collaborazioni,<br /> società della filiera edilizia (professionisti, artigiani, commercianti)<br /> che operano sul mercato con proprie reti commerciali.</p>
+          <h1 className='textTitleCasalvi' style={ { fontSize: '7.5vw', fontWeight: '100', color: '#27292A'} } >CASALVI</h1>
+          <p className='MontserratFont' style={ { fontSize: 16, lineHeight: 2, } }>Nasce con l'obiettivo di AGGREGARE tramite partnership e stabili collaborazioni,<br /> società della filiera edilizia (professionisti, artigiani, commercianti)<br /> che operano sul mercato con proprie reti commerciali.</p>
           <button style={ { width: '50%', cursor:'pointer', height: 40, border: 'none', backgroundColor: '#27292A', color: 'white', borderRadius: 10 } }>VAI QUI</button>
         </div>
         <Image src={ Background } style={ { objectFit: 'contain', paddingTop: '7%', width: '100%', height: '80vh', } } alt='' />

@@ -49,7 +49,7 @@ export default function PostPage ()
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginTop:0,justifyContent:'center'}}>
                 <div data-aos='fade-left' >
                     <h1 style={{fontSize:28, fontWeight:'600'}}>Titolo</h1>
-                    <p style={{ marginTop:20, fontSize:14, maxWidth:'80%', fontWeight:'300',color: '#242930', fontFamily:'Montserrat'}}>
+                    <p className='MontserratFont' style={{ marginTop:20, fontSize:14, maxWidth:'80%', fontWeight:'300',color: '#242930'}}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         </p>

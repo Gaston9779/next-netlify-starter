@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/geometos-rounded');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Syne:wght@500&display=swap');
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -50,6 +52,13 @@
   gap: 2%;
   padding:3%;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+}
+
+.textTitleCasalvi {
+  font-family: 'Geometos Rounded';
+}
+.MontserratFont{
+  font-family: 'Montserrat';
 }
 .navbar{
   background-color:white;
